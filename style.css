@@ -21,13 +21,12 @@ html {
 .nav1bar {
   overflow: auto;
   background-image: linear-gradient(whitesmoke, white);
- 
 }
 
 .nav1bar a {
   float:left;
   display:block;
-  color: black; 
+  color: black;
   text-align:left; 
   padding: 14px 16px;
   text-decoration: inherit;
@@ -43,7 +42,7 @@ html {
 }
 .nav1bar a:hover {
   background: #000;
-   color: black;
+  color: black;
 }
 .centered {
   position: absolute;
@@ -75,7 +74,7 @@ html {
     filter: blur(2.5px);
     -webkit-filter:blur(2.5px);
       min-height: 800px; 
-    background-attachment: fixed;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
