@@ -5,7 +5,7 @@ html {
       overflow: auto;
 }
 .container {
-  position: relative;
+  position: sticky;
   text-align: center;
   color: black;
   font-weight: bolder;
@@ -15,12 +15,14 @@ html {
 .nav1bar {
   overflow: auto;
   background-image: linear-gradient(whitesmoke, white);
+      position: sticky; 
 }
 
 .nav1bar a {
   float:left;
   display:block;
   color: black;
+  position: sticky; 
   text-align:left; 
   padding: 14px 16px;
   text-decoration: inherit;
@@ -31,6 +33,7 @@ html {
 
 .nav1bar a:hover {
   background: #000;
+      position: sticky; 
   color: black;
 }
 .centered {
@@ -41,15 +44,18 @@ html {
   font-weight: bolder;
   transform: translate(-50%, -50%);
 }
-.container .centered p{
+.active, a{
+    float:left;
     font-weight: bolder;
-    
+    background-color: #f0eeea;
+    font-family: sans-serif;
 }
-.active, .nav1bar a:hover {
+ .nav1bar a:hover {
   background-color:	#000;
   color:ghostwhite;
   font-family: sans-serif;
 }
+
 .nav1bar .icon {
   display: none;
 }
