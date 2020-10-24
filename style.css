@@ -48,7 +48,7 @@ html {
   color: black;
 }
 .centered {
-  position: relative;
+  position: absolute;
   top: 30%;
   left: 50%;
   font-family: monospace;
