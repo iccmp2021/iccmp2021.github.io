@@ -28,7 +28,7 @@ html {
   float:left;
   display:block;
   color: black;
-  position: sticky; 
+  position: absolute; 
   text-align:left; 
   padding: 14px 16px;
   text-decoration: inherit;
@@ -44,7 +44,7 @@ html {
 }
 .nav1bar a:hover {
   background: #000;
-      position: sticky; 
+      position: absolute; 
   color: black;
 }
 .centered {
