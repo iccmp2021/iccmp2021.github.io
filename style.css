@@ -5,7 +5,7 @@ html {
       overflow: auto;
 }
 .container {
-  position: sticky;
+  position: relative;
   text-align: center;
   color: black;
   font-weight: bolder;
